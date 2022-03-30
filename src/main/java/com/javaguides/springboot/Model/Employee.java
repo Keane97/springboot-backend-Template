@@ -19,6 +19,12 @@ public class Employee {
     @Column(name = "last_name")
     private String lastName;
 
+    @Column(name = "about_me")
+    private String aboutMe;
+
     @Column(name = "email")
     private String email;
+
+    @Column(name = "image")
+    private String image;
 }

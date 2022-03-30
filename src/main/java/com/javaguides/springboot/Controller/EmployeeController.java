@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController     //or @Controller (@Restcontoller combines @Controller and @ResponseBody, eliminating the need to annotate each method)
 @RequestMapping("/api/employees")
 public class EmployeeController {

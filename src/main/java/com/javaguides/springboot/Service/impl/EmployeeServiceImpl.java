@@ -52,7 +52,9 @@ public class EmployeeServiceImpl implements EmployeeService {
 
         existingEmployee.setFirstName(employee.getFirstName());
         existingEmployee.setLastName(employee.getLastName());
+        existingEmployee.setAboutMe(employee.getAboutMe());
         existingEmployee.setEmail(employee.getEmail());
+        existingEmployee.setImage(employee.getImage());
         //save existing employee to DB
 
         employeeRepository.save(existingEmployee);
