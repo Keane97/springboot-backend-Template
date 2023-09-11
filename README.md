@@ -1,6 +1,7 @@
 # springboot-backend
 Simple CRUD application using SPRING BOOT.
-Please note this project was ran and hosted locally. 
+Please note this project was run and hosted locally. 
+(Use this as a template API)
 
 Tools used:
 - Java 17
